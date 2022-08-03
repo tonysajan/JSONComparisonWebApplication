@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Object-Based JSON Comparison</title>
+</head>
+<body>
+
+    <h1>Object-Based JSON Comparison</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+
+        <div class="parent">
+        <div>File A</div>
+        <input type="file" name="files" single >
+        <div>File B</div>
+        <input type="file" name="files" single >
+        </div>
+        <div><br/></div>
+        <input type="submit" value="Upload Files"></input>
+    </form>
+
+</body>
+</html>
